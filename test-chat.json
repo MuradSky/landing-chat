@@ -1,0 +1,96 @@
+{
+  "dealer": {
+        "dealerName": "Дилерский центр",
+        "dealerPhone": "+7 (999) 999-99-99",
+        "dealerBrand": "Бренд 1",
+        "managerName": "Иван",
+        "managerPost": "Менеджер отдела продаж",
+        "managerImg": "manager.png",
+        "mainSite":  "/"
+  },
+  "models": {
+      "model_key_1": {
+          "model": "Модель 1",
+          "img": "img_1.png",
+          "label": "Подарок",
+          "installment": "Выгода до 300 000 ₽",
+          "credit": "Выгода при кредите 150 000 ₽",
+          "tradeIn": "Выгода при trade-in 150 000 ₽",
+          "brand": "Бренд 1",
+          "benefits": [
+              "Выгода <span>1</span>",
+              "Выгода 2",
+              "Выгода 3"
+          ],
+          "complectations": {
+              "complectation_key_1": "Комплектация 1",
+              "complectation_key_2": "Комплектация 2",
+              "complectation_key_3": "Комплектация 3",
+              "complectation_key_4": "Комплектация 4"
+          },
+          "colors": {
+              "ff0000": "Цвет 1",
+              "0000ff": "Цвет 2",
+              "ffffff": "Цвет 3"
+          }
+      },
+      "model_key_2": {
+          "model": "Модель 2",
+          "img": "img_2.png",
+          "label": "Подарок",
+          "installment": "Выгода до 300 000 ₽",
+          "credit": "Выгода при кредите 150 000 ₽",
+          "tradeIn": "Выгода при trade-in 150 000 ₽",
+          "brand": "Бренд 2",
+          "benefits": [
+              "Выгода 1",
+              "Выгода 2",
+              "Выгода <span>3</span>"
+          ],
+          "complectations": {
+              "complectation_key_1": "Комплектация 1",
+              "complectation_key_2": "Комплектация 2",
+              "complectation_key_3": "Комплектация 3",
+              "complectation_key_4": "Комплектация 4"
+          },
+          "colors": {
+              "ff0000": "Цвет 1",
+              "0000ff": "Цвет 2",
+              "ffffff": "Цвет 3",
+              "000000": "Цвет 4"
+          }
+      },
+      "model_key_3": {
+          "model": "Модель 2",
+          "img": "img_3.png",
+          "label": "Подарок",
+          "installment": "Выгода до 300 000 ₽",
+          "credit": "Выгода при кредите 150 000 ₽",
+          "tradeIn": "Выгода при trade-in 150 000 ₽",
+          "brand": "Бренд 2",
+          "benefits": [
+              "Выгода 1",
+              "Выгода <span>2</span>",
+              "Выгода 3"
+          ],
+          "complectations": {
+              "complectation_key_1": "Комплектация 1",
+              "complectation_key_2": "Комплектация 2"
+          },
+          "colors": {
+              "ff0000": "Цвет 1",
+              "0000ff": "Цвет 2",
+              "ffffff": "Цвет 3",
+              "000000": "Цвет 4",
+              "008000": "Цвет 5"
+          }
+      }
+  },
+  "payments": {
+      "credit": "Кредит",
+      "cash": "Наличные",
+      "leasing": "Лизинг",
+      "installment": "Авторассрочка",
+      "notDecided": "Не определился"
+  }
+}
